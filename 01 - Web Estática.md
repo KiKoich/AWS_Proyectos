@@ -77,7 +77,6 @@ _index.html_
 #### **Paso 6: Acceder a tu página web**
 1. Una vez que la distribución de CloudFront esté desplegada, copia el **Domain Name** (por ejemplo, `d1234abcd.cloudfront.net`).
 2. Pega el dominio en tu navegador y verás tu página web estática.
-![[Proyecto-WebEstatica.png]]
 **Nota** - CloudFront tiene en cache 24 horas el fichero y no recarga nuevos cambios en dicho tiempo. Si quieres hacerlo inmediatamente tienes que irte a la distribución de CloudFront e invalidar los ficheros que quieras recargar. Cuidado!!!, solo tienes 1000 al mes gratis.
 ### **Verificación y pruebas**:
 - **Prueba de acceso**: Asegúrate de que la página web se carga correctamente.
